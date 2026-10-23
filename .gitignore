@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local configuration
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and generated artifacts
+data/raw/*.csv
+data/processed/*.csv
+models/*.joblib
+models/*.json
+reports/figures/*.png
+reports/results/*.csv
+reports/results/*.json
+
+# Operating system and IDE files
+.DS_Store
+Thumbs.db
+.vscode/settings.json
